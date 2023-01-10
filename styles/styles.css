@@ -243,12 +243,21 @@ progress {
     align-items: top;
 }
 
+.section1, .section2 {
+    padding-bottom: 40px;
+}
+
 .summary, .education, .projects {
     margin-left: 80px;
     padding-left: 10px;
     text-align: left;
     border-left: 4px dashed black;
     font-size: 18px;
+}
+
+.education p {
+    margin-bottom: 0;
+    padding-bottom: 5px;
 }
 
 .years {
@@ -266,6 +275,31 @@ progress {
     padding-left: 70px;
     font-size: 25px;
     text-align: left;
+}
+
+.projects {
+    margin-bottom: 0;
+}
+
+ul, li {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h4{
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.connect {
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+    border-radius: 50%;
+    background-color: rgb(102, 255, 0);
 }
 
 #portfolio {

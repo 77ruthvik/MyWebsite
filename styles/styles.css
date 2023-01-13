@@ -247,6 +247,10 @@ progress {
     padding-bottom: 40px;
 }
 
+.section2 {
+    padding-right: 40px;
+}
+
 .summary, .education, .projects {
     margin-left: 80px;
     padding-left: 10px;
